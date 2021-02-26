@@ -1,0 +1,28 @@
+{
+  "name": "non-dynamic-crawler",
+  "version": "1.0.0",
+  "description": "a crawler for pages without dynamic js",
+  "main": "non-dynamic-crawler.js",
+  "scripts": {
+	"start": "node non-dynamic-crawler.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyKarapetyan/non-dynamic-crawler.git"
+  },
+  "keywords": [
+    "crawler",
+    "non-dynamic"
+  ],
+  "author": "Andrey Karapetyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreyKarapetyan/non-dynamic-crawler/issues"
+  },
+  "homepage": "https://github.com/AndreyKarapetyan/non-dynamic-crawler#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "got": "^11.8.2"
+  }
+}
